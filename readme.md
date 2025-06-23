@@ -5,3 +5,5 @@ This is a collection of tools for TeX and BibTeX gathered for Seismica authors a
 ## contents
 
 `aux2bib` -- perl script that reads an aux file and a bib file, and outputs a new bib file containing only the references used in the project. The script needs to be in a directory with the aux and bib file and takes the aux filename as its sole argument.
+
+`subset.bst` -- bib style for `aux2bib`, tricks bibtex into outputting .bib-formatted entries for us.
